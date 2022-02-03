@@ -14,7 +14,8 @@ namespace CurrencyAM
         //Constructor
         public Bill(string name, string countryCode, float value, float height, float width, string color) : base(name, countryCode, value)
         {
-            //Name = name;
+            //These are assigned via the :base( ) constructor and aren't needed here
+            //Name = name;        
             //CountryCode = countryCode;
             //Value = value;
             Height = height;
