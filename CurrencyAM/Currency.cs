@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CurrencyAM
 {
-    public abstract class Currency   //BASE CLASS
+    public abstract class Currency   //BASE CLASS -- abstrace means we cannot directly create objects, but can create derived classes from it.
     {
         //Properties
         public string Name;

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CurrencyAM
 {
-    public class Bill : Currency  //A derived class
+    public class Bill : Currency  //Derived Class from Coin Base Class...   derived : base
     {
         //Properties
         public float Height;
